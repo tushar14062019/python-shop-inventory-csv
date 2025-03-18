@@ -3,6 +3,26 @@
 ## **Objective**  
 This case study helps new programmers practice **file handling, object-oriented programming (OOP), and user input handling** in Python.  
 
+## **Sample Data**
+
+**Products**
+```csv
+product_id,product_name,price,quantity
+101,Soap,20,50
+102,Shampoo,120,30
+103,Toothpaste,60,40
+104,Rice,500,20
+105,Sugar,45,25
+```
+
+**Sales**
+```csv
+sale_id,product_id,product_name,quantity_sold,total_price
+1,102,Shampoo,2,240
+1,101,Soap,3,60
+2,104,Rice,1,500
+```
+
 ## **Features**  
 ✅ **Manage inventory** (add, view, and update products).  
 ✅ **Record sales with multiple products** in one sale.  
